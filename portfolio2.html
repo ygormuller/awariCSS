@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com CSS Grid</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        header {
+            background-color: red;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: blue;
+            padding: 20px;
+        }
+
+        main {
+            background-color: green;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: orange;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cabeçalho</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Conteúdo</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </main>
+
+    <footer>
+        <p>Rodapé</p>
+    </footer>
+</body>
+</html>
